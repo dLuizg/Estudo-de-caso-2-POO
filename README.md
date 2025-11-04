@@ -41,3 +41,60 @@ A empresa possui três categorias de colaboradores:
 ---
 
 ## 🧱 Estrutura do Projeto  
+
+📦 gestao_funcionarios
+┣ 📂 bin
+┃ ┗ 📜 main.dart # Ponto de entrada do programa (menu interativo)
+┣ 📂 lib
+┃ ┣ 📜 funcionario.dart # Classe abstrata base
+┃ ┣ 📜 gerente.dart # Subclasse de Funcionario
+┃ ┣ 📜 desenvolvedor.dart # Subclasse de Funcionario
+┃ ┗ 📜 estagiario.dart # Subclasse de Funcionario
+┗ 📜 README.md
+
+yaml
+Copiar código
+
+---
+
+## ▶️ Como Executar  
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/dLuizg/POO.git
+Entre na pasta do projeto:
+
+bash
+Copiar código
+cd POO/gestao_funcionarios
+Execute o programa:
+
+bash
+Copiar código
+dart run bin/main.dart
+💡 Exemplo de Execução
+makefile
+Copiar código
+==== Sistema de Gestão de Funcionários ====
+1. Cadastrar Gerente
+2. Cadastrar Desenvolvedor
+3. Cadastrar Estagiário
+4. Exibir Funcionários
+5. Sair
+Escolha uma opção: 1
+
+Nome: João Silva
+Matrícula: 001
+Salário: 8000
+
+Funcionário cadastrado com sucesso!
+
+==== Funcionários Cadastrados ====
+Nome: João Silva
+Cargo: Gerente
+Matrícula: 001
+Salário: R$ 8000.00
+Bônus: R$ 1600.00
+👨‍💻 Desenvolvido por
+Luiz Gustavo
+💻 Projeto acadêmico — Unifeob - Ciência da Computação
